@@ -1,0 +1,7 @@
+# Ignoruj doèasné složky
+.vs/
+bin/
+obj/
+*.user
+*.suo
+*.log
