@@ -36,4 +36,4 @@ Konfigurace je definována v souboru `appsettings.json`:
 5. Aplikace každou hodinu stáhne nová data a uloží je do databáze.
 
 ## Časová implementace
-5-6 hodin
+6-7 hodin
