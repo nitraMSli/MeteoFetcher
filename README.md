@@ -22,13 +22,15 @@ Konfigurace je definována v souboru `appsettings.json`:
     "DefaultConnection": "Server=(localdb)\\MSSQLLocalDB;Database=MeteoDB;Trusted_Connection=True;TrustServerCertificate=True;"
   }
 ```
-
 ## Spuštění aplikace
-   1. Otevři projekt v IDE (např. Visual Studio nebo VS Code).
-   2. Ujisti se, že máš nainstalovaný SQL Server Express (LocalDB).
-   3. V konzoli spusť:
+
+1. Otevři projekt v IDE (např. Visual Studio nebo VS Code).
+2. Ujisti se, že máš nainstalovaný SQL Server Express (LocalDB).
+3. V konzoli spusť:
+
     ```bash
     dotnet run
     ```
-    4. Při prvním spuštění dojde automaticky k vytvoření databáze a migraci schématu.
-    5. Aplikace každou hodinu stáhne nová data a uloží je do databáze.
+
+4. Při prvním spuštění dojde automaticky k vytvoření databáze a migraci schématu.
+5. Aplikace každou hodinu stáhne nová data a uloží je do databáze.
