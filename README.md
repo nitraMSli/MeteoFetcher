@@ -34,3 +34,6 @@ Konfigurace je definována v souboru `appsettings.json`:
 
 4. Při prvním spuštění dojde automaticky k vytvoření databáze a migraci schématu.
 5. Aplikace každou hodinu stáhne nová data a uloží je do databáze.
+
+## Časová implementace
+5-6 hodin
