@@ -29,6 +29,6 @@ Konfigurace je definována v souboru `appsettings.json`:
    3. V konzoli spusť:
     ```bash
     dotnet run
-    ---
+    ```
     4. Při prvním spuštění dojde automaticky k vytvoření databáze a migraci schématu.
     5. Aplikace každou hodinu stáhne nová data a uloží je do databáze.
